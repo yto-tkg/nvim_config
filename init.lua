@@ -15,3 +15,5 @@ end
 if is_win then
   require('windows')
 end
+
+vim.g.copilot_filetypes = { markdown = true, gitcommit = true, yaml = true }
